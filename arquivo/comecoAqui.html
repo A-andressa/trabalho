@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Matemática</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+        
+
+    <style>
+        
+        #area{
+            display: flex;
+            width: 200px;
+            background-color: rgb(255, 255, 255);
+            margin: auto;
+            border-radius: 10px;
+            padding: 200px;
+            position: relative;
+            top: 100px;
+            box-shadow: 10px 10px 10px rgba(60, 46, 117, 0.747);
+
+
+        }
+        header{
+            
+            text-align: center;
+            color: white;
+            
+        }
+        footer{
+            
+            font-style: italic;
+            position: relative;
+            top: 120px;
+            left: 12px;
+            color: rgb(255, 255, 255);
+
+        }
+        p{
+            font-size: 20px;
+            line-height: normal;
+            
+        }
+
+        #quiz{
+            position: absolute;
+            top: 50px;
+            margin: auto;
+            height: 100px;
+            width: 200px;
+            font-size: 25px;
+            box-shadow: 10px 10px 1px rgb(90, 93, 255);
+            background-color: rgba(76, 124, 255, 0.466);
+            color: white;
+        }
+        #Resumo{
+            position: absolute;
+            top: 200px;
+            margin: auto;
+            height: 100px;
+            width: 200px;
+            font-size: 25px;
+            box-shadow: 10px 10px 1px rgb(90, 93, 255);
+            background-color: rgba(76, 124, 255, 0.466);
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <header> <h1>Trabalho de Equação do 2º grau com Delta</h1> </header>
+    <section id="area">
+        <input id="quiz" type="submit" value="Quiz" onclick="Quiz()"></button>
+        <input id="Resumo" type="submit" value="Resumo" onclick="Resumo()"></button>
+    </section>
+
+
+    <footer>
+        <p>&copy; Fabiane 9º Branco</p>
+    </footer>
+    <script>
+        function Quiz(){
+            window.location.href = "https://pt.quizur.com/trivia/quiz-de-equacao-de-2-grau-com-delta-1nCEY";
+        }
+
+        function Resumo(){
+            window.location.href = "resumo.html";
+        }
+
+    </script>
+
+    
+</body>
+</html>

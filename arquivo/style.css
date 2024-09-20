@@ -1,0 +1,21 @@
+body, html{
+    background-color: #6e9cff;
+    height: 900px;
+    width: 1300px;
+    font: normal 12pt Arial;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    top: 150px;
+    left: 12px;
+    color: rgb(255, 255, 255);
+
+}
+p{
+    font-size: 20px;
+    line-height: normal;
+    
+}
